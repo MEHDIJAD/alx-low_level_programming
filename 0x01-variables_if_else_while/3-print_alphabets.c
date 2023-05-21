@@ -3,25 +3,23 @@
 int main(void)
 /**
  * main - main block
- * Description: print the alphabite in lowercase and in uppercase, followd by a new line
+ * Description: print the alphabite in lowercase and in uppercase
  * Return: 0
 */
-{
-    char c = 'a';
+char c = 'a';
 
-    while (c <= 'z')
-    {
+while (c <= 'z')
+{
+	putchar(c);
+        c++;
+}
+c = 'A';
+while (c <= 'Z')
+{
         putchar(c);
         c++;
-    }
-    c = 'A';
-    while (c <= 'Z')
-    {
-        putchar(c);
-        c++;
-    }
+}
     putchar('\n');
     
     return (0);
-
 }
