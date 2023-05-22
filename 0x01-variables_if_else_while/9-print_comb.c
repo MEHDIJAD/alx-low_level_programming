@@ -1,23 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
- * Description: prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
+ * Description: print all the possible combination of single-digit numbers
+ * separated by ',', follwed by a space.
  * Return: 0
  */
 int main(void)
 {
-	int c = 0;
-
-	while (c < 10)
+	int n = '0';
+	
+	while (n <= '9')
 	{
-		putchar(48 + c);
-		if (c != 9)
+		putchar(n);
+
+		if (n < '9')
 		{
 			putchar(',');
 			putchar(' ');
-		}
+		}		
 		c++;
 	}
 	putchar('\n');
