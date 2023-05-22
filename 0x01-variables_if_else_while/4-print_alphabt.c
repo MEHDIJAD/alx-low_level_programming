@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: print the alphabite in lowercase excepte q and s
- * Returne: 0
+ * Return: 0
  */
 int main(void)
 {
