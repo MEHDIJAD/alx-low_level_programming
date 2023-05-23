@@ -5,16 +5,16 @@
  * Return:0
  */
 
-void print_alphabet(void)
+void printalphabet(void)
 {
 	char c = 'a';
 
 	while (c <= 'z')
 	{
-		_putchar(c);
+		putchar(c);
 		c++;
 
 	}
-	_putchar('\n');
+	putchar('\n');
 
 }
