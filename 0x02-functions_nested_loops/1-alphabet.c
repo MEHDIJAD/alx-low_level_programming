@@ -1,19 +1,19 @@
-#include <stdio.h>
-/**
- * main - main block
- * Description: print the alphabite in mlowercase
- * follewd by a new line.
- * Return: 0
- */
-void print_alphabet(void);
-{
-    char c = 'a';
+#include "main.h"
 
-    while (c <= 'z')
-    {
-        putchar(c);
-        c++;
-    }
-    putchar('\n');
-    return;
+/**
+ * main - Entry point
+ * Return:0
+ */
+
+int main(void)
+{
+char c[9] = "_putchar";
+int i = 0;
+while (i < 8)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
