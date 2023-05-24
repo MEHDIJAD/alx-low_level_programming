@@ -1,11 +1,22 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - main block
+ * Description: a fuction that prints the alphabite in lowercase
+ * folled by a new line.
+ * Return: void
  */
-int main(void)
+
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+   char c = 'a';
+   while (c <= 'z')
+   
+   {
+    putchar(c);
+    c++;
+   } 
+   putchar('\n');
+   return;
+}
+
+void print_alphabet(void);i
