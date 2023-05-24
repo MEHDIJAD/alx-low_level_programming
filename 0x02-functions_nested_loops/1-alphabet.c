@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: a fuction that prints the alphabite in lowercase
- * folled by a new line.
- * Return: void
- */
+ * Description: a fauction that print the alphabit in lowercase
+ * follewd by a new line.
+ * Return: 0
+*/
 
 void print_alphabet(void)
 {
@@ -19,4 +19,12 @@ void print_alphabet(void)
    return;
 }
 
-void print_alphabet(void);i
+void print_alphabet(void);
+
+int main(void)
+{
+    
+print_alphabet();
+
+return (0);
+}
