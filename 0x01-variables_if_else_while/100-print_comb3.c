@@ -1,25 +1,32 @@
 #include <stdio.h>
 /**
- * main -main block
- * Description: print all the possible combinations of two digit numbers
- * separated by ',', follewd by a space.
+ * main - main block
+ * Description: print all possible different combinations of two digits
+ * separated by (,), followed by a space
  * Return: 0
 */
-int main() {
-    int i = 0;
-    int j = 0;
-    while (i < 10) {
-        j = 0;
-        while (j < 10) {
-            if (i != j) {
-                putchar(i + '0');
-                putchar(j + '0');
+
+int main(void)
+{
+    int i = '0';
+    int j = '1';
+
+    while (i <= '9')
+    {    
+    j = '1';
+        while (j <= '9')
+        {
+        
+            if (i != j)
+            {
+                putchar(i);
+                putchar(j);
                 putchar(',');
-                 putchar(' ');
+                putchar(' '); 
             }
-            j++;
+        j++;
         }
-        i++;
+    i++; 
     }
-    return 0;
+return (0);
 }
