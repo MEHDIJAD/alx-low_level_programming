@@ -1,31 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - main block
- * Description: a fauction that print the alphabit in lowercase
- * follewd by a new line.
- * Return: 0
+* print_alphabet - function to print alphabets
+*
+*
+*alpha: char with starting value 'a'
+*
+*
 */
+void print_alphabet(void)
+{
+	char alpha;
 
-	void print_alphabet(void)
-	{	
-   		char c = 'a';
-   		while (c <= 'z')
-   
-   		{	
-    			putchar(c);
-    			c++;
-   		} 
-   		putchar('\n');
-   	return;
+	alpha = 'a';
+	while (alpha <= 'z')
+	{
+		_putchar(alpha);
+		alpha++;
 	}
-
-	void print_alphabet(void);
-
-	int main(void)
-	{	
-    
-	print_alphabet();
-
-	return (0);
-	}
-
+	_putchar('\n');
+}
