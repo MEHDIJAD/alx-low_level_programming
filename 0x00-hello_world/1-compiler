@@ -4,6 +4,7 @@ if [ -z "$CFILE" ]; then
 	echo "Error: CFILE env variable not set."
 	exit 1
 fi
+# space after and befor [] is !
 
 output_filename="${CFILE%.c}.o"
 
