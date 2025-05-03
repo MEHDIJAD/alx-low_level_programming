@@ -1,9 +1,10 @@
-/*Write a script that compiles a C file but does not link.
-
-The C file name will be saved in the variable $CFILE
-The output file should be named the same as the C file, but with the extension .o instead of .c.
-Example: if the C file is main.c, the output file should be main.o*/
-// -c option ==> compile the c file 
-
 #!/bin/bash
-gcc -c $CFILE
+# check if CFILE is set
+if [-z "$CFILE"]; then
+	echo "Error: CFILE env variable not set."
+	exit 1
+fi
+
+output_filename="${CFILE%.c}.o"
+
+gcc -c "$CFILE" -o "$output_filename"
