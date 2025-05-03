@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z "$CFILE" ]; then
+    echo "Error: CFILE env variable not set."
+    exit 1
+fi
+
+output_filename="${CFILE%.c}.s"
+
+gcc -S -masm=intel "$CFILE" -o "$output_filename"

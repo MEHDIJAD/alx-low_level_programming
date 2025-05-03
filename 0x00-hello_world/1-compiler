@@ -5,6 +5,12 @@ if [ -z "$CFILE" ]; then
 	exit 1
 fi
 # space after and befor [] is !
+# If the variable CFILE is empty (-z), then run the commands between then and fi
+
+# if <condition_command>
+# then
+    # Commands to run if condition is true
+# fi
 
 output_filename="${CFILE%.c}.o"
 
