@@ -1,4 +1,0 @@
-1- dos2unix + shell script
-2- sed -i 's/\r$//' + shell script
-
-to compile : gcc -Wall -Werror -Wextra -pedantic -std=gnu89
