@@ -39,6 +39,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 *   **Files:** `3-print_remaining_days.c`, `main.h`
 *   **Description:** Fixes the `print_remaining_days()` function in `3-print_remaining_days.c`. The goal is to ensure it correctly calculates and prints the day of the year and remaining days, accurately accounting for leap years and handling invalid dates (e.g., Feb 29 in a non-leap year). The `convert_day()` function is provided and used by `print_remaining_days()`.
 
-## Author
-
-[Your Name/GitHub Username]
