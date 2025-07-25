@@ -54,10 +54,6 @@ cc main.o -L. -lutil -o prog
 Compile → Link (reference library) → Run (loader loads and links shared library into memory)
 ```
 
-#### Creating A Shared "C" Library Using "ld"
-
-#### Using A Shared "C" Library - Quirks And Solutions
-
 
 
 
