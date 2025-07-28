@@ -1,15 +1,5 @@
 #include "main.h"
 
-size_t _strlen(const char *str)
-{
-	size_t len = 0;
-
-	while (str[len]){
-		len++;
-	}
-	return (len);
-}
-
 char *_strdup(char *str)
 {
 	size_t len = _strlen(str);
@@ -21,5 +11,6 @@ char *_strdup(char *str)
 		cpy[i] = str[i];
 		i++;
 	}
+	cpy[len] = '\0';
 	return (cpy);
 }
