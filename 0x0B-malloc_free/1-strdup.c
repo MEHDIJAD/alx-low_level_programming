@@ -5,9 +5,10 @@ char *_strdup(char *str)
 	size_t len = _strlen(str);
 	size_t i = 0;
 	char *cpy = malloc(sizeof(char) * (len + 1));
-	if (!cpy)
+	if( !cpy)
 		return (NULL);
-	while (i < len && str[i]){
+	while (i < len && str[i])
+	{
 		cpy[i] = str[i];
 		i++;
 	}
