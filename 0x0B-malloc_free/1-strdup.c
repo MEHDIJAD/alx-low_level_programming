@@ -10,9 +10,20 @@
  *         or if memory allocation fails
  */
 
+size_t _strlen(const char *str)
+{
+	size_t len = 0;
+
+	while (str[len]){
+		len++;
+	}
+	return (len);
+}
+
+
 char *_strdup(char *str)
 {
-	size_t len = strlen(str);
+	size_t len = _strlen(str);
 	size_t i = 0;
 	char *cpy = malloc(sizeof(char) * (len + 1));
 
