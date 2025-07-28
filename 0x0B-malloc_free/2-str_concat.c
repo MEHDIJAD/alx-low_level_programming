@@ -4,13 +4,15 @@ char *str_concat(char *s1, char *s2)
 {
 	int i = 0;
 	int ci;
+	size_t biglen;
+	char *concat_str;
 
 	if (!s1)
 		s1 = "";
 	if (!s2)
 		s2 = "";
-	size_t biglen = _strlen(s1) + _strlen(s2);
-	char *concat_str = malloc(sizeof(char) * (biglen + 1));
+	biglen = _strlen(s1) + _strlen(s2);
+	concat_str = malloc(sizeof(char) * (biglen + 1));
 	if (!concat_str)
 		return (NULL);
 	ci = 0;
