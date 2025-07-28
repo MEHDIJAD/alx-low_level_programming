@@ -18,6 +18,7 @@ size_t _strlen(const char *str)
 	}
 	return (len);
 }
+
 /**
  * _strdup - Returns a pointer to a newly allocated space in memory,
  *           which contains a copy of the string given as a parameter

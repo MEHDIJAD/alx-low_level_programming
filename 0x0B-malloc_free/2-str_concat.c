@@ -1,5 +1,32 @@
 #include "main.h"
 
+/**
+ * _strlen - Return the length of the string passed to it
+ * @str: The string to evaluate
+ *
+ * Return: The length of the string
+ */
+
+size_t _strlen(const char *str)
+{
+	size_t len = 0;
+
+	while (str[len])
+	{
+		len++;
+	}
+	return (len);
+}
+
+/**
+ * str_concat - Concatenates two strings into a newly allocated memory space
+ * @s1: The first string
+ * @s2: The second string
+ *
+ * Return: Pointer to the newly allocated string containing s1 followed by s2,
+ *         or NULL if memory allocation fails
+ */
+
 char *str_concat(char *s1, char *s2)
 {
 	int i = 0;
