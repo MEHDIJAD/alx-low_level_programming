@@ -9,4 +9,5 @@ void	_free(void **grid)
 		grid[i] = NULL;
 		i++;
 	}
+	free(grid);
 }
