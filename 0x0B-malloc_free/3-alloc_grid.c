@@ -9,17 +9,6 @@ void	_bzero(int *line, size_t n)
 		line[i++] = 0;
 }
 
-void	_free(void **grid)
-{
-	int i = 0;
-
-	while (grid[i]){
-		free(grid[i]);
-		grid[i] = NULL;
-		i++;
-	}
-}
-
 int **alloc_grid(int width, int height)
 {
 	int **grid;
