@@ -30,11 +30,15 @@ size_t _strlen(const char *str)
 
 char *_strdup(char *str)
 {
+	size_t len;
+	size_t i;
+	char *cpy;
+
 	if (!str)
 		return (NULL);
-	size_t len = _strlen(str);
-	size_t i = 0;
-	char *cpy = malloc(sizeof(char) * (len + 1));
+	i = 0;
+	len = _strlen(str);
+	cpy = malloc(sizeof(char) * (len + 1));
 
 	if (!cpy)
 		return (NULL);
