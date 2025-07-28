@@ -39,16 +39,15 @@ int **alloc_grid(int width, int height)
 		grid[y] = malloc(sizeof(int) * width);
 		if (!grid[y])
 		{
-			while (--y)
+			while (y--)
 			{
 				free(grid[y]);
 			}
 			free(grid);
-			grid = NULL;
+			return (NULL);
 		}
 		_bzero(grid[y], width);
 		y++;
 	}
-	grid[y] = NULL;
 	return (grid);
 }
