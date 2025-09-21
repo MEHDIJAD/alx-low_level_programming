@@ -1,18 +1,18 @@
-# ALX Low-Level Hole Project
+# 🕳️ ALX Low-Level Hole Project
 
-This project is part of the ALX Software Engineering curriculum. It focuses on low-level programming concepts, including memory management, pointers, and system-level operations in C.  
+This project is part of the ALX Software Engineering curriculum. It focuses on low-level programming concepts, including memory management, pointers, and system-level operations in C. 💻🔧
 
-## Project Goals
-- Practice working with pointers and memory allocation.
-- Understand low-level system interactions in C.
-- Improve debugging and problem-solving skills.
+## 🎯 Project Goals
+- 🧠 Practice working with pointers and memory allocation
+- ⚙️ Understand low-level system interactions in C
+- 🐛 Improve debugging and problem-solving skills
 
-## Technologies
-- C language
-- GCC compiler
-- Linux environment
+## 🛠️ Technologies
+- 🟢 C language
+- 🔨 GCC compiler
+- 🐧 Linux environment
 
-## How to Run
+## 🚀 How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/MEHDIJAD/alx-low_level_programming.git
@@ -22,9 +22,10 @@ This project is part of the ALX Software Engineering curriculum. It focuses on l
    -Wall -Werror -Wextra -pedantic -std=gnu89 file.c -o exec
    ```
 3. Run the executable:
-   ```bash
-  ./exec
-   ```
+
+	```bash
+  	./exec
+	```
 ## Author
 
   - 🎓 42 Intra: [eel-garo](https://github.com/MEHDIJAD)
