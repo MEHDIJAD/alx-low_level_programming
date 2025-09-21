@@ -30,6 +30,6 @@ This project is part of the ALX Software Engineering curriculum. It focuses on l
 
   - 🎓 42 Intra: [eel-garo](https://profile.intra.42.fr/users/eel-garo)
   - 🐙 GitHub: [MEHDIJAD](https://github.com/MEHDIJAD/)
-  - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/el-mehdi-el-garouaz-a028aa287/)
+  - 💼 LinkedIn: [EL MEHDI EL GAROUAZ](https://www.linkedin.com/in/el-mehdi-el-garouaz-a028aa287/)
 
    
