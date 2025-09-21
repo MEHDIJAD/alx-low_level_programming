@@ -15,7 +15,7 @@ This project is part of the ALX Software Engineering curriculum. It focuses on l
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/MEHDIJAD/alx-low_level_programming.git
    ```
 2. Compile the project:
    ```bash
@@ -25,4 +25,10 @@ This project is part of the ALX Software Engineering curriculum. It focuses on l
    ```bash
   ./exec
    ```
+## Author
+
+  - 🎓 42 Intra: [eel-garo](https://github.com/MEHDIJAD)
+  - 🐙 GitHub: [MEHDIJAD](https://github.com/MEHDIJAD/)
+  - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/el-mehdi-el-garouaz-a028aa287/)
+
    
